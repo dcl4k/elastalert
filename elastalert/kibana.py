@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # flake8: noqa
 import os.path
-import urllib.error
-import urllib.parse
-import urllib.request
+import urllib2 as urllib_request
+import urllib2 as urllib_error
+import urllib2 as urllib_parse
 
 from .util import EAException
 

@@ -12,7 +12,7 @@ import uuid
 import warnings
 from email.mime.text import MIMEText
 from email.utils import formatdate
-from html.parser import HTMLParser
+from HTMLParser import HTMLParser
 from smtplib import SMTP
 from smtplib import SMTP_SSL
 from smtplib import SMTPAuthenticationError

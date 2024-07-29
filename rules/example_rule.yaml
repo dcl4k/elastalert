@@ -1,0 +1,17 @@
+name: High Value Alert
+type: frequency
+index: connections
+num_events: 1
+timeframe:
+  minutes: 10
+filter:
+- range:
+    value:
+      gte: 900
+- range:
+    "@timestamp":
+      gte: "now-10m"
+      lte: "now"
+alert:
+- "debug"
+

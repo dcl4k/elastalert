@@ -5,7 +5,7 @@ import logging
 import json
 import os.path
 import prison
-import urllib.parse
+import urlparse as urllib_parse
 
 from .util import EAException
 from .util import lookup_es_key
